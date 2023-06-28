@@ -1,5 +1,5 @@
 # Simulation of Vı́rus Propagation
-![Covid-Simulation-in-C-2020](https://socialify.git.ci/bakill3/Covid-Simulation-in-C-2020/image?font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Floating%20Cogs&stargazers=1&theme=Dark)
+![Covid-Simulation-in-C-2020](https://socialify.git.ci/bakill3/Covid-Simulation-in-C-2020/image?font=Inter&language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Light)
 ## 1. Introduction
 It is intended to implement a program that simulates, in a simplified way, the spread of a virus among a population. The individuals of the population are in a space made up of places, interconnected with each other. The implementation of the programme consists of 2 sequential phases:
 - **Preparation**: At the beginning of the execution, the application loads all the necessary data from files: Space configuration and size and characteristics of the initial population.
