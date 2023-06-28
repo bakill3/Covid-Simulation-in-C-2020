@@ -1,0 +1,37 @@
+Ao avançar um dia (após iteração):
+
+--- FOR() SALAS --
+
+-- FOR() de PESSOAS na SALA atual --
+
+	//Probabilidade de recuperação
+
+	probabilidade_recuperar = 1/atual->idade;
+
+	for(i=0; i<10; i++) {
+		if (probEvento(probabilidade_recuperar)) {
+			atual->estado = "S";
+		}
+	}
+
+	//-------------------------------------
+
+
+	//Duração máxima da infeção ---------------
+
+	n_digitos_na_idade = (int)log10(idade); 
+	if (atual->dias_infetado >= (5 + (atual->idade / pow (10, n_digitos_na_idade - 1)))) {
+		atual->estado = "S";
+	}
+
+	//---------------------------------------------------
+
+	//Taxa de disseminação
+
+	novos_infetados = (5*total_pessoas_na_sala/100)*numero_doentes_na_sala;
+
+	//---------------------------------------------------------------------------
+
+-- END_FOR_PESSOAS() --
+
+-- END_FOR_SALAS() --
